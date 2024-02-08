@@ -9,6 +9,11 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
+    "dev-server": {
+      "name": "dev-server",
+      "command": "node server.js",
+      "runAtStart": true
+    },
     "dev": {
       "name": "dev",
       "command": "yarn dev",
